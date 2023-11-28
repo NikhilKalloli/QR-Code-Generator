@@ -75,7 +75,7 @@ Contributions are welcome! If you have any improvements or new features to sugge
 
 
 
-Enjoy playing the Dice game! If you have any questions or issues, feel free to [open an issue](https://github.com/NikhilKalloli/QR-Code-Generator/issues).
+Enjoy playing the with the code! If you have any questions or issues, feel free to [open an issue](https://github.com/NikhilKalloli/QR-Code-Generator/issues).
 
 
 # 🔗 Connect with Me
@@ -86,6 +86,9 @@ Enjoy playing the Dice game! If you have any questions or issues, feel free to [
 ## Feedback
 
 If you have any feedback, please reach out to me at nikhilkalloli0097@gmail.com
+
+
+Enjoy generating QR codes with style and simplicity🚀
 
 
 
