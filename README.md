@@ -43,6 +43,7 @@ A simple web application for generating QR codes with customizable download form
     - 📁 Assets
       - 🖼 Default.png
       - 🖼 DefaultPdf.png
+      - 🖼 qrfavicon.ico
       - 🖼 twitter-icon.png
     - 📁 Styles
       - 📄 styles.css
