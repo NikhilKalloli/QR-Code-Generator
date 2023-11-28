@@ -39,21 +39,21 @@ A simple web application for generating QR codes with customizable download form
 - [EJS](https://ejs.co/)
 
 - ## Project Structure 📂
-📁 public
-  📁 Assets
-    🖼 Default.png
-    🖼 DefaultPdf.png
-    🖼 twitter-icon.png
-  📁 Styles
-    📄 styles.css
-📁 views
-  📁 includes
-    📄 footer.ejs
-    📄 header.ejs
-  📄 index.ejs
-📄 .gitignore
-📄 index.js
-📄 package.json
+  - 📁 public
+    - 📁 Assets
+      - 🖼 Default.png
+      - 🖼 DefaultPdf.png
+      - 🖼 twitter-icon.png
+    - 📁 Styles
+      - 📄 styles.css
+  - 📁 views
+    - 📁 includes
+      - 📄 footer.ejs
+      - 📄 header.ejs
+    - 📄 index.ejs
+  - 📄 .gitignore
+  - 📄 index.js
+  - 📄 package.json
 
 ## Setup Instructions 🛠️
 
