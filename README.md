@@ -59,8 +59,9 @@ A simple web application for generating QR codes with customizable download form
 
 1. Clone the repository.
 2. Install dependencies using `npm install`.
-3. Run the application using `npm start`.
-4. Open the application in your browser (usually at `http://localhost:3000`).
+3. Navigate to `index.js` file
+4. Run the application using `node index.js`.
+5. Open the application in your browser (usually at `http://localhost:3000`).
 
 ## Credits 🙌
 
