@@ -18,53 +18,35 @@ app.set("views", (__dirname +"/views"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static(__dirname  + "/public"));
+app.use(express.static(__dirname  + "/public/Styles"));
+app.use(express.static(__dirname  + "/public/Assets"));
 
 
 
 
 app.get("/",(req,res)=>{
-  const defaultImg = "Default.png";  
-  res.render("index.ejs",{savedImg:defaultImg});
+  const defaultImg = "Default.png";
+  const defaultURL = "Enter your URL above" ;
+  res.render("index.ejs",{savedImg:defaultImg, URL:defaultURL});
 })
 
 
 app.post("/generate",(req,res)=>{
-  // console.log(req.body.userURL);
-  let URL = req.body.userURL;
-  // console.log(URL);
-
-
-  let imgType = req.body.selectedValue;
-
- // Deleting existing file.
-  // fs.rm(`/public/qr_img.${imgType}`, { recursive:true }, (err) => {
-  //   // if (err) throw err;
-  //   console.log("File deleted successfully");
-  // })
-
+    let URL = req.body.userURL;
+    let imgType = req.body.selectedValue;
 
     let qr_svg = qr.image(URL,{ type: `${imgType}`, margin: 4 });
 
     let fileLocation =  `public/qr_img.${imgType}`;
     qr_svg.pipe(fs.createWriteStream(fileLocation));
     
-        
-    fs.writeFile('URL.txt', URL, (err) => {
-        if (err) throw err;
-        console.log('The file has been saved!');
-      }); 
+    const savedImg = `qr_img.${imgType}`;
+  
+    res.render("index.ejs",{savedImg,URL});
 
-      // console.log(fileLocation);
-      const savedImg = `qr_img.${imgType}`;
-      
-      
-      // res.render("generate.ejs",{savedImg});
-      res.render("index.ejs",{savedImg,URL});
   })
 
-  
 
-
-  app.listen(port,()=>{
+app.listen(port,()=>{
     console.log(`App is listening on port ${port}`);
   })
