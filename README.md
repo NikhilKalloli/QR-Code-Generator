@@ -38,6 +38,23 @@ A simple web application for generating QR codes with customizable download form
 - [Express.js](https://expressjs.com/)
 - [EJS](https://ejs.co/)
 
+- ## Project Structure 📂
+📁 public
+  📁 Assets
+    🖼 Default.png
+    🖼 DefaultPdf.png
+    🖼 twitter-icon.png
+  📁 Styles
+    📄 styles.css
+📁 views
+  📁 includes
+    📄 footer.ejs
+    📄 header.ejs
+  📄 index.ejs
+📄 .gitignore
+📄 index.js
+📄 package.json
+
 ## Setup Instructions 🛠️
 
 1. Clone the repository.
@@ -51,6 +68,26 @@ A simple web application for generating QR codes with customizable download form
 - Express.js: [https://expressjs.com/](https://expressjs.com/)
 - EJS: [https://ejs.co/](https://ejs.co/)
 
-## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Contributing
+
+Contributions are welcome! If you have any improvements or new features to suggest, please create a pull request.
+
+
+
+Enjoy playing the Dice game! If you have any questions or issues, feel free to [open an issue](https://github.com/NikhilKalloli/QR-Code-Generator/issues).
+
+
+# 🔗 Connect with Me
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/NikhilKalloli)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikhil-kalloli-a6ab2a25b/)
+
+## Feedback
+
+If you have any feedback, please reach out to me at nikhilkalloli0097@gmail.com
+
+
+
+
+
